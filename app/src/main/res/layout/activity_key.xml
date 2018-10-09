@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数字输入" />
+
+        <EditText
+            android:id="@+id/edt_1"
+            android:layout_width="@dimen/x400"
+            android:layout_height="@dimen/y100"
+            android:hint=""
+            android:text="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="两位小数点输入" />
+
+        <EditText
+            android:id="@+id/edt_2"
+            android:layout_width="@dimen/x400"
+            android:layout_height="@dimen/y100"
+            android:hint=""
+            android:text="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身份证输入" />
+
+        <EditText
+            android:id="@+id/edt_3"
+            android:layout_width="@dimen/x400"
+            android:layout_height="@dimen/y100"
+            android:hint="数字"
+            android:text="3"/>
+    </LinearLayout>
+</LinearLayout>
